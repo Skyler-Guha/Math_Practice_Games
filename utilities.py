@@ -33,5 +33,11 @@ def bg (color):
 def fgbg(fg_color,bg_color):
 	return "\33[38;5;" + str(fg_color) + "m" + "\33[48;5;" + str(bg_color) + "m"
 
-def nc():
-    return "\033[1;37;40m"
+NC= "\033[1;37;40m"
+
+ES= chr(96)
+#we add NC & ES to end of fg colored text to -
+#prevent color bleading on windows 10 terminal-
+#which is glitchy and buggy. Try not to use fg color -
+#at the bourders of that trerminal either.
+#for more info visit: https://github.com/microsoft/terminal/issues/75 

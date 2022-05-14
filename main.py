@@ -9,15 +9,13 @@ def main():
         menu_option = main_menu(game_list)
 
         #validating given option
-        if option_validator(menu_option,game_list.keys()) == False :
+        if option_validator(menu_option,int,game_list.keys()) == False :
             continue
         else:
             menu_option = int(menu_option)
 
         #selecting course of action from list as per given option
         game_list[menu_option][1]()
-
-
 
 
 
