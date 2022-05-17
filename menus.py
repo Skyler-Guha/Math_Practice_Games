@@ -10,7 +10,7 @@ def main_menu(gl):
         print("\033[0;30;47m "+str(item[0])+" \033[1;37;40m "+item[1][0])
         time.sleep(0.4)
 
-    choice = input(fg(46)+"\n>>> "+NC)
+    choice = input(fg(46)+">>> "+NC)
     return(choice)
 
 def petc(color=NC,clr=True):

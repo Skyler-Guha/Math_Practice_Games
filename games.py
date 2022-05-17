@@ -87,6 +87,6 @@ def addition_game():#maybe rewrite this?
 
 
 
-        print(fgbg(123,93)+"your Score was: "+str(score)+" out of "+str(no_of_ques)+NC+ES)
+        print(fgbg(123,93)+"Your score was: "+str(score)+" out of "+str(no_of_ques)+NC+ES)
         petc(fgbg(123,93))
         break
