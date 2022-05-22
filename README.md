@@ -1,6 +1,6 @@
 # terminal-math-adventures
 
-![Alt Text](https://github.com/Skyler-Guha/Portfolio/blob/main/docs/assets/terminal-math-adventures-demo.gif)
+![Alt Text](https://github.com/Skyler-Guha/skyler-guha.github.io/blob/main/assets/images/terminal-math-adventures-demo.gif)
 
 - This is an educational program to help people brush up on their basic math skills by playing games that test their ablities.
 - It contains many command line games to chose from. 
